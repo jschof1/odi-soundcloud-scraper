@@ -1,0 +1,15 @@
+{
+  "name": "odi-soundcloud-scraper",
+  "version": "1.0.4",
+  "description": "scrape odi soundcloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.2.2",
+    "soundcloud-scraper": "^5.0.3"
+  }
+}

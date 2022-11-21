@@ -1,0 +1,1 @@
+This module opens a browser and scrapes all the soundcloud posts from the the ODI's website. Simply put the amount of links you would like to scrape and call the function.
