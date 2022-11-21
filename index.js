@@ -98,15 +98,12 @@ function soundCloudOdiScrape(scrapeNumber) {
     }
   };
 
-  return getSongArrInfo();
+  return getSongArrInfo().then((data) => {
+    return data;
+  });
 }
 
-function soundCloudOdi(num) {
-  soundCloudOdiScrape(num).then((res) => {
-    return res
-    });
-}
 
 module.exports = {
-  soundCloudOdi,
+  soundCloudOdiScrape
 };
