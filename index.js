@@ -88,7 +88,7 @@ function soundCloudOdiScrape(scrapeNumber) {
           Duration: song.duration,
           "Play Count": song.playCount,
           Likes: song.likes,
-          Upload: song.publishedAt,
+          Date: song.publishedAt.split("T")[0],
           Type: "Podcast",
         };
       });

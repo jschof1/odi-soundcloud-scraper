@@ -1,12 +1,12 @@
 {
   "name": "odi-soundcloud-scraper",
-  "version": "1.0.4",
+  "version": "1.0.41",
   "description": "scrape odi soundcloud",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jack Schofield",
   "license": "ISC",
   "dependencies": {
     "puppeteer": "^19.2.2",
